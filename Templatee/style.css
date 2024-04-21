@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 500px;
+    background: url(./img/slider-bg.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.container::after{
+    content: '';
+    background-color: rgba(177, 177, 177, 0.85);
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    z-index: 1;
+
+}
+.container__h1{
+    font-size: 70px;
+    animation: shake 0.5s forwards;
+    z-index: 2;
+}
+.container__p{
+    color: white;
+    font-size: 27px;
+    font-weight: lighter;
+    margin: 50px;
+    z-index: 2;
+}
+.container__button{
+    padding: 15px;
+    font-weight: lighter;
+    z-index: 2;
+    border: 1px solid transparent;
+}
+.container__button:hover{
+    background-color: black;
+    color: white;
+}
+.Main2{
+    position: absolute;
+    left: 160px;
+    bottom: 93px;
+    z-index: 1;
+    border-radius: 4px;
+    width: 75%;
+    height: 220px;
+    background-color: white;
+    box-shadow: 0px 0px 19px rgba(0,0,0,0.06);;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Main2 h1{
+    font-size: 70px;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Main2 p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+.Main3{
+    margin-top: 200px;
+    width: 70%;
+    height: auto;
+    margin: 200px auto;
+}
+.container5 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.container5__div1{
+    width: 280px;
+    height: 367px;
+    margin: 10px;
+}
+.container5__div2{
+    width: 280px;
+    height: 367px;
+    margin: 10px;
+}
+.container5__div3{
+    width: 280px;
+    height: 367px;
+    margin: 10px;
+}
+.container5__div4{
+    width: 280px;
+    height: 367px;
+    margin: 10px;
+    transition:0.6s;
+}
+.container5__div5{
+    width: 280px;
+    height: 367px;
+    margin: 10px;
+}
+.container5__div6{
+    width: 280px;
+    height: 367px;
+    margin: 10px;
+    transition:0.6s;
+}
+.container5__div7{
+    width: 280px;
+    height: 367px;
+    margin: 10px;
+}
+.container5__div8{
+    width: 280px;
+    height: 367px;
+    margin: 10px;
+}
+.container5__div9{
+    width: 280px;
+    height: 367px;
+    margin: 10px;
+}
+.container5__div10{
+    width: 280px;
+    height: 367px;
+    margin: 10px;
+}
+.container5__div1:hover{
+    background-color: rgb(251, 6, 6, 0.9);
+}
+.container5__div2:hover{
+    background-color: rgb(251, 6, 6, 0.9)
+}
+.container5__div3:hover{
+    background-color: rgb(251, 6, 6, 0.9)
+}
+.container5__div4:hover{
+    background-color: rgb(251, 6, 6, 0.9)
+}
+.container5__div5:hover{
+    background-color: rgb(251, 6, 6, 0.9)
+}
+.container5__div6:hover{
+    background-color: rgb(251, 6, 6, 0.9)
+}
+.container5__div7:hover{
+    background-color: rgb(251, 6, 6, 0.9)
+}
+.container5__div8:hover{
+    background-color: rgb(251, 6, 6, 0.9)
+}
+.container5__div9:hover{
+    background-color: rgb(251, 6, 6, 0.9)
+}
+.container5__div10:hover{
+    background-color: rgb(251, 6, 6, 0.9)
+}
+
+.container5 img:hover{
+    opacity: 0.8;
+}
+.container5 img{
+    width: 280px;
+    height: 280px;
+    object-fit: 100 100;
+    z-index: -1;
+}
+.container5 p{
+    width: 290px;
+    height: 83px;
+    background-color: #f3f3f3;
+    color: red;
+    display: flex;
+    padding-top: 32px;
+    justify-content: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Main4{
+    width: 100%;
+    height: 400px;
+    background-color: #f3f3f3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Main4 button{
+    padding: 20px;
+    border: 1px solid transparent;
+}
+.Main4 button:hover{
+    background-color: black;
+    color: white;
+}
+.Main4 h3{
+    color: rgb(248, 4, 4, 0.5);
+    font-weight: 100;
+}
+.spn{
+    color: black;
+    font-size: 16px;
+}
+@keyframes shake {
+    0%, 100% {transform:rotateY(0deg);}
+    50% {transform: rotateY(180deg);}
+}
+
